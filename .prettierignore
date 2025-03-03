@@ -1,0 +1,73 @@
+###
+# Place your Prettier ignore content here
+
+###
+# .gitignore content is duplicated here due to https://github.com/prettier/prettier/issues/8506
+
+# Created by .ignore support plugin (hsz.mobi)
+### Node template
+# Logs
+/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# TypeScript v1 declaration files
+typings/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+
+# Serverless directories
+.serverless
+
+# IDE / Editor
+.idea
+
+# Service worker
+sw.*
+
+# macOS
+.DS_Store
+
+# Vim swap files
+*.swp
+
+# 依赖目录
+node_modules
+
+# 构建输出目录
+dist
+
+# 测试覆盖率报告
+coverage
+
+# 编辑器配置
+.vscode
+
+# 系统文件
+.DS_Store
+
+# 日志文件
+*.log
+
+# 包管理器锁定文件
+package-lock.json
+pnpm-lock.yaml
+
+# 配置文件（可选是否格式化）
+package.json
+
