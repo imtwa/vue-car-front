@@ -20,5 +20,12 @@ export default defineConfig({
   server: {
     port: 3000, // 开发服务器端口
     open: true // 自动打开浏览器
+  },
+  build: {
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, 'index.html')
+      }
+    }
   }
 })
