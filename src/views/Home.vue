@@ -102,13 +102,13 @@ const router = useRouter()
       margin-bottom: 60px;
       position: relative;
       z-index: 2;
-      // background: rgba(255, 255, 255, 0.5);
+      background: rgba(0, 0, 0, 0.5);
       padding: 40px 60px;
 
       .feature-card {
         padding: 30px;
         text-align: center;
-        background: rgba(255, 255, 255, 0.7);
+        // background: rgba(0, 0, 0, 0.5);
         border-radius: 8px;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
         transition: transform 0.3s;
@@ -120,11 +120,11 @@ const router = useRouter()
 
         h3 {
           margin: 20px 0;
-          color: #303133;
+          color: #a6b3cd;
         }
 
         p {
-          color: #606266;
+          color: #e0e0e0;
           line-height: 1.6;
         }
 
