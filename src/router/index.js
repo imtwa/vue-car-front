@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '@/views/Home.vue'
+import Home from '@/views/home/index.vue'
 import MainLayout from '@/layouts/MainLayout.vue'
 
 const routes = [
@@ -15,28 +15,34 @@ const routes = [
       {
         path: 'brands',
         name: 'Brands',
-        component: () => import('@/views/Brands.vue')
+        component: () => import('@/views/brands/index.vue')
+      },
+      {
+        path: 'brands/:id',
+        name: 'BrandDetail',
+        component: () => import('@/views/brands/BrandDetailView.vue'),
+        meta: { requiresAuth: true }
       },
       {
         path: 'ar',
         name: 'AR',
-        component: () => import('@/views/AR.vue')
+        component: () => import('@/views/ar/index.vue')
       },
       {
         path: 'forum',
         name: 'Forum',
-        component: () => import('@/views/forum/Forum.vue')
+        component: () => import('@/views/forum/index.vue')
       },
       {
-        path: 'profile',
-        name: 'Profile',
-        component: () => import('@/views/Profile.vue'),
+        path: 'user',
+        name: 'User',
+        component: () => import('@/views/user/ProfileView.vue'),
         meta: { requiresAuth: true }
       },
       {
         path: 'forum/post',
         name: 'ForumPost',
-        component: () => import('@/views/forum/Post.vue'),
+        component: () => import('@/views/forum/PostView.vue'),
         meta: { requiresAuth: true }
       }
     ]
@@ -44,7 +50,7 @@ const routes = [
   {
     path: '/login',
     name: 'Login',
-    component: () => import('@/views/Login.vue')
+    component: () => import('@/views/auth/LoginView.vue')
   }
 ]
 

@@ -17,5 +17,6 @@ Mock.XHR.prototype.send = function () {
 
 // 引入模块
 import './user'
+import './brand'
 
 export default Mock
