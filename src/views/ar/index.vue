@@ -24,7 +24,7 @@
 <script setup>
 import { ref } from 'vue'
 import ModelShow from './ModelShow.vue'
-
+// @/assets/models/xxx.glb
 const CARMODEL_PATH = '/car/A6Avant.FBX'
 const GLTFMODEL_PATH = '/car/BenzS650.glb'
 
