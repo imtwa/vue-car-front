@@ -92,7 +92,7 @@ spring:
 # 日志配置
 logging:
   file:
-    name: ${BASE_FILE_PATH}logs/lihua.log
+    name: ${BASE_FILE_PATH}logs/car.log
   level:
     com.lihua: debug
     org.springframework: info

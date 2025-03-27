@@ -1,35 +1,35 @@
 <template>
   <a-flex :gap="16" vertical>
     <a-row>
-      <a-col :span="24">
+      <a-col :span="18">
         <a-badge-ribbon text="now time">
           <index_1></index_1>
         </a-badge-ribbon>
       </a-col>
     </a-row>
     <a-row :gutter="16">
-      <a-col :span="6">
+      <!-- <a-col :span="6">
         <index_2></index_2>
-      </a-col>
+      </a-col> -->
       <a-col :span="6">
         <index_3></index_3>
       </a-col>
       <a-col :span="6">
         <index_4></index_4>
       </a-col>
-      <a-col :span="6">
+      <!-- <a-col :span="6">
         <index_5></index_5>
-      </a-col>
+      </a-col> -->
     </a-row>
     <a-row :gutter="16">
-      <a-col :span="12">
+      <!-- <a-col :span="12">
         <index_6></index_6>
-      </a-col>
+      </a-col> -->
       <a-col :span="12">
         <index_8></index_8>
       </a-col>
     </a-row>
-    <a-row :gutter="16">
+    <!-- <a-row :gutter="16">
       <a-col :span="12">
         <index_7></index_7>
       </a-col>
@@ -51,7 +51,7 @@
           </a-col>
         </a-row>
       </a-col>
-    </a-row>
+    </a-row> -->
   </a-flex>
 
 </template>

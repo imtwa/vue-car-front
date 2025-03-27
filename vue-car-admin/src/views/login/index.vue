@@ -7,7 +7,7 @@
       <div class="title">
         <transition name="fade" mode="out-in">
           <div v-show="showTitle">
-            <a-typography-title>狸花猫后台管理系统
+            <a-typography-title>3D汽车虚拟展示后台管理系统
               <a-tag :bordered="false">{{ settings.version }}</a-tag>
             </a-typography-title>
             <a-typography-title :level="2">
